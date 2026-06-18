@@ -1,0 +1,80 @@
+# 🚆 Railway Reservation System
+
+A console-based Railway Reservation System developed using **Java, JDBC, and MySQL**. This application enables users to manage train reservations efficiently through functionalities such as viewing trains, adding passengers, booking tickets, canceling tickets, and generating bills.
+
+## 📌 Features
+
+* View available trains and seat availability.
+* Register passenger details.
+* Book train tickets with booking and journey dates.
+* View booked tickets.
+* Cancel tickets and automatically update seat availability.
+* Generate bills with fare calculation.
+* MySQL database integration using JDBC.
+* Modular design using separate classes for better code organization.
+
+## 🛠 Technologies Used
+
+* Java
+* JDBC
+* MySQL
+* SQL
+* Eclipse IDE
+
+## 📂 Project Structure
+
+```
+RailwayReservationSystem
+│
+├── Main.java
+├── DBConnection.java
+├── TrainService.java
+├── PassengerService.java
+├── TicketService.java
+└── BillService.java
+```
+
+## ⚙️ Functionalities
+
+### Train Management
+
+* Display train details.
+* Show available seats and fare information.
+
+### Passenger Management
+
+* Add passenger details to the database.
+
+### Ticket Booking
+
+* Book tickets with journey and booking dates.
+* Store reservation information in MySQL.
+
+### Ticket Cancellation
+
+* Cancel booked tickets.
+* Automatically update seat availability.
+
+### Bill Generation
+
+* Generate detailed bills including:
+
+  * Passenger details
+  * Train details
+  * Number of seats booked
+  * Fare per seat
+  * Total amount
+
+## 🎯 Learning Outcomes
+
+This project demonstrates:
+
+* Object-Oriented Programming (OOP) concepts in Java.
+* JDBC connectivity with MySQL.
+* CRUD operations using SQL.
+* Modular programming and code organization.
+* Basic database management and reservation system design.
+
+## 📖 About
+
+This project was developed as a mini-project to understand Java backend development and database integration. It provides a simple simulation of a railway reservation system and serves as a foundation for building larger reservation or management systems.
